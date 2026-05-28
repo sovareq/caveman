@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <em>Fork of <a href="https://github.com/JuliusBrussee/caveman">JuliusBrussee/caveman</a> maintained by <a href="https://github.com/sovareq">Sovareq</a>. Upstream is canonical; this fork carries cross-links to companion tools and tracks pending upstream PRs.</em>
+</p>
+
+<p align="center">
   <a href="https://github.com/JuliusBrussee/caveman/stargazers"><img src="https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow" alt="Stars"></a>
   <a href="https://github.com/JuliusBrussee/caveman/commits/main"><img src="https://img.shields.io/github/last-commit/JuliusBrussee/caveman?style=flat" alt="Last Commit"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/JuliusBrussee/caveman?style=flat" alt="License"></a>
@@ -236,6 +240,18 @@ Caveman save you token, save you money. Star cost zero. Fair trade. ⭐
 ## Also by Julius Brussee
 
 - **[Revu](https://github.com/JuliusBrussee/revu-swift)** — local-first macOS study app with FSRS spaced repetition. [revu.cards](https://revu.cards)
+
+## Companion tools (Sovareq fork)
+
+MIT companion tools that pair with caveman, maintained by [Sovareq](https://github.com/sovareq):
+
+- **[savings-mirror](https://github.com/sovareq/savings-mirror)** — read-only USD-savings dashboard. Consumes Claude Code JSONL transcripts, visualises caveman compression as per-day savings + cumulative chart.
+- **[sovacount](https://github.com/sovareq/sovacount)** — scope-level LLM tier-router (Haiku/Sonnet/Opus). Stacks with caveman:
+  - caveman cuts cost on *which tokens* are sent
+  - sovacount cuts cost on *which model* runs them
+  - Includes a [real-Anthropic benchmark](https://github.com/sovareq/sovacount/tree/main/benchmark) with raw data + methodology
+
+See upstream PR [JuliusBrussee/caveman#458](https://github.com/JuliusBrussee/caveman/pull/458) for inclusion in the canonical README.
 
 ## License
 
